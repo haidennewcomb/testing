@@ -4,6 +4,8 @@ with open('colors.txt', 'w') as file:
 
 with open('colors.txt', 'r') as file:
     lines = file.readlines()
-    for line in reversed(lines): print(line.strip())
-print(lines[1].strip())
+
+for line in reversed(lines):
+    print(line.strip())
+
 print(len(lines))

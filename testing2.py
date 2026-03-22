@@ -1,7 +1,7 @@
 import pickle
 
 # Save data to pickle file
-data = {'name': 'Alice', 'age': 25, 'city': 'NYC'}
+data = ['Alice', 25, 'NYC']
 with open('person.pkl', 'wb') as file:
     pickle.dump(data, file)
 print("Data saved")
